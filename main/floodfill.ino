@@ -1,6 +1,6 @@
 
 
-bool checkWall(int x, int y, int direction) {  //ÇALIŞIYO
+bool checkWall(int x, int y, int direction) { 
   int wallcheck1 = (y * 16 + x) / 2;
   int wallcheck2 = (y * 16 + x) % 2;
   if (wallcheck2 == 0) {
